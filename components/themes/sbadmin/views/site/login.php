@@ -28,7 +28,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <?php ActiveForm::end(); ?>
             <hr>
             <div class="text-center">
-                <?= Html::a('Forgot Password?', ['/site/request-reset-password'], ['class' => 'small']) ?>
+                <?= Html::a('Forgot Password?', ['/site/request-password-reset'], ['class' => 'small']) ?>
             </div>
         </div>
     </div>
